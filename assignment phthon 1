@@ -1,0 +1,231 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3da592b8-a270-4ea8-b4bb-38f6c82d0206",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#1. In the below elements which of them are values or an expression? eg:- values can be\n",
+    "integer or string and expressions will be mathematical operators.\n",
+    "\n",
+    "'hello' 6 = value\n",
+    "* - / + -87.5 = expression "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6e9b246b-eaf0-4980-82e0-a9dfc2efacac",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#2. What is the difference between string and variable.\n",
+    "\n",
+    "A string is a sequence of characters like text\n",
+    "A variable is a name used to store data in memory\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ffa83df4-37a6-493f-8d36-274404d65d35",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#3. Describe three different data types.\n",
+    "\n",
+    "int = all intergers positive and negative\n",
+    "float= decimal number\n",
+    "str = refers to characters"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "847eeba7-40ce-4f3a-92db-cc7a7ce0092a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#4. What is an expression made up of? What do all expressions do.\n",
+    "\n",
+    "\n",
+    "An expression is a combination of values, variables, operators, and calls to functions. Expressions need to be evaluated.\n",
+    "If you ask Python to print an expression, the interpreter evaluates the expression and displays the result."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "acc5761a-0f5c-4026-8469-6332299759c3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#5. This assignment statements, like spam = 10. What is the difference between an expression and a statement.\n",
+    "    \n",
+    "In programming, an expression is a combination of values, variables, operators, and function calls that evaluates to a\n",
+    "single value. A statement, on the other hand, is a complete instruction that performs an action or controls program flow.\n",
+    "Essentially, expressions produce values, while statements execute actions\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "5e866129-c728-437e-af91-daa255adda65",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "23"
+      ]
+     },
+     "execution_count": 1,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#6. After running the following code, what does the variable bacon contain?\n",
+    "\n",
+    "bacon = 22\n",
+    "bacon + 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "810049e6-28f8-49d2-beef-ea7c2662c93d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "22\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(bacon)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "6c52ca28-e2a2-45fd-829c-19afc17d76ad",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "spamspamspam\n",
+      "spamspamspam\n"
+     ]
+    }
+   ],
+   "source": [
+    "#What should the values of the following two terms be?\n",
+    "'spam'+'spamspam'\n",
+    "'spam'*3\n",
+    "\n",
+    "name = 'spam'\n",
+    "print('spam'+'spamspam')\n",
+    "name = 'spam'\n",
+    "print('spam'*3)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9b2b6feb-85fe-4f31-bd32-f4c612fc229a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#8. Why is eggs a valid variable name while 100 is invalid?\n",
+    "\n",
+    "eggs is valid veriable \n",
+    "because variable is start with lattars and underscore \n",
+    "variable can not be start with numbers \n",
+    "so eggs is valid variable and 100 is not valid."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7906c9c8-0fbc-47cf-82ff-dab5dbc71c3e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#What three functions can be used to get the integer, floating-point number, or string version of a value.\n",
+    "\n",
+    "integer = int()\n",
+    "floating-point number=float()\n",
+    "string=('')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e00b1e13-ee35-4bcb-8ef6-542d81fd3db5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#10. Why does this expression cause an error? How can you fix it?\n",
+    "'I have eaten'+ 99 + ' burritos'\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "4f3ab2cb-dd74-490b-a85e-d4cc351a0c75",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'i have eaten99burrtios'"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "'i have eaten'+str('99')+'burrtios'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "107ca469-5059-4962-87f9-05ecc76e25e0",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
